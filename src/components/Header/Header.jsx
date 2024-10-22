@@ -1,11 +1,11 @@
 import './Header.css';
 
-function Header() {
+function Header(props) {
     return(
         <>
-           <header>
-               Este é o Header
-           </header>
+            <header>
+               <h1>{props.logo}</h1>
+            </header>
         
         </>
     );
