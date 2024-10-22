@@ -6,9 +6,9 @@ export default function Main(props) {
     return (
         <>
             <main>
-                <h2>{props.titulo}</h2>
+                {/* <h2>{props.titulo}</h2> */}
                 
-                <p>{props.texto1}</p>
+                {/* <p>{props.texto1}</p> */}
 
                 <Button titulo="Padrão" />
                 <Button titulo="Alerta" class="alerta" />
