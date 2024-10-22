@@ -5,7 +5,7 @@ function Header() {
     return(
         <>
             <header>
-                Este é o Header
+                Bem-vindo(a)
             </header>
         </>
     );
