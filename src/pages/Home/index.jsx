@@ -7,10 +7,16 @@ import Nav from '../../components/Nav/Nav';
 function Home() {
     return(
         <>
-            <Header />
+            <Header logo="ImobiTech" />
+            
             <Nav />
-            <Main />
-            <Footer />
+
+            <Main
+                titulo="Bem-vindo(a) à ImobiTech"
+                texto1="Veritatis iste beatae, quam eum mollitia similique corporis enim non placeat? Aspernatur libero rem numquam. Esse nobis harum veniam obcaecati, in earum."
+            />
+
+            <Footer contato="contato@imobitech.com.br" />
         </>
     );
 }

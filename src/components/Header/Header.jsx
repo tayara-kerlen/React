@@ -1,11 +1,11 @@
 import './Header.css';
 
 // Component
-function Header() {
+function Header(props) {
     return(
         <>
             <header>
-                Bem-vindo(a)
+                <h1>{props.logo}</h1>
             </header>
         </>
     );
