@@ -1,4 +1,4 @@
-
+import './Nav.css'
 function  Nav() {
     return(
         <>
@@ -8,3 +8,5 @@ function  Nav() {
         </>
     );
 }
+
+export default Nav;
